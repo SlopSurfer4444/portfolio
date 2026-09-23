@@ -4,7 +4,7 @@
 
 Я спроектировал поведение продукта и организовал его разработку с AI coding agents: от требований и архитектурных решений до интеграции и проверки в реальных группах. Агенты были основным инструментом реализации, подготовки тестов и ревью.
 
-[Исходный код](https://github.com/SlopSurfer4444/Neurobro) · [Русское описание](https://github.com/SlopSurfer4444/Neurobro/blob/f3f9caf237614c9c4fc1509306c966d190f49235/README.ru.md) · [Архитектура](https://github.com/SlopSurfer4444/Neurobro/blob/f3f9caf237614c9c4fc1509306c966d190f49235/docs/architecture.md) · [Проверки](https://github.com/SlopSurfer4444/Neurobro/blob/f3f9caf237614c9c4fc1509306c966d190f49235/docs/testing.md)
+[Исходный код](https://github.com/SlopSurfer4444/Neurobro) · [Русское описание](https://github.com/SlopSurfer4444/Neurobro/blob/6f2bed54ad05f444bee16d81b0f60cc7ef7e7f83/README.ru.md) · [Архитектура](https://github.com/SlopSurfer4444/Neurobro/blob/6f2bed54ad05f444bee16d81b0f60cc7ef7e7f83/docs/architecture.md) · [Проверки](https://github.com/SlopSurfer4444/Neurobro/blob/6f2bed54ad05f444bee16d81b0f60cc7ef7e7f83/docs/testing.md)
 
 ## Задача
 
@@ -60,7 +60,7 @@ WSL содержит среду исполнения и Python-мост; Node-х
 - Linux-supervisor с `NoNewPrivileges`, `ProtectHome`, `ProtectSystem=strict`, ограничениями ресурсов и завершением группы процессов.
 - Отдельный relay для соединения с провайдером при отключённом общем сетевом доступе в профиле модели. Relay ограничивает направления соединений, но не читает содержимое TLS.
 
-[Устройство и границы изоляции](https://github.com/SlopSurfer4444/Neurobro/blob/f3f9caf237614c9c4fc1509306c966d190f49235/docs/isolation.md) описаны по слоям и со ссылками на исходники.
+[Устройство и границы изоляции](https://github.com/SlopSurfer4444/Neurobro/blob/6f2bed54ad05f444bee16d81b0f60cc7ef7e7f83/docs/isolation.md) описаны по слоям и со ссылками на исходники.
 
 Мост, управление процессами и ограничения инструментов — части проекта. **Codex App Server — внешняя зависимость, написанная на Rust, а не наш собственный Rust-код.**
 
@@ -88,7 +88,7 @@ Neurobro эксплуатировался в режиме **24/7 на Windows/WS
 
 Автономные тесты используют синтетические сообщения, имитации транспорта и временные хранилища. Они проверяют программные сценарии без входа в Telegram и обращения к живой модели. Отдельно проводилось использование в реальных Telegram-группах.
 
-[Документация проверок](https://github.com/SlopSurfer4444/Neurobro/blob/f3f9caf237614c9c4fc1509306c966d190f49235/docs/testing.md) содержит результаты для публичной версии и границы проверенных сценариев.
+[Документация проверок](https://github.com/SlopSurfer4444/Neurobro/blob/6f2bed54ad05f444bee16d81b0f60cc7ef7e7f83/docs/testing.md) содержит результаты для публичной версии и границы проверенных сценариев.
 
 ## Технологии
 
