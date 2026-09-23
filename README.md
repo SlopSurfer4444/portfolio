@@ -18,6 +18,8 @@
 
 [Читать кейс →](cases/office-infrastructure/README.md) · [Архитектура](cases/office-infrastructure/docs/architecture.md) · [Приложения](cases/office-infrastructure/docs/applications.md) · [Проверка результата](cases/office-infrastructure/docs/operations.md)
 
+**Код приложений:** [Менеджер карт СКУД · C# / WPF](https://github.com/SlopSurfer4444/skud-card-manager) · [PDF-компоновщик · Python](https://github.com/SlopSurfer4444/plotter-composer). Каждый проект находится в отдельном репозитории с инструкциями и автономными тестами.
+
 ---
 
 Материалы опубликованы в обезличенном виде. Рабочие конфигурации и данные доступа в портфолио не входят.
